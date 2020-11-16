@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Header title="Hello World" />
         <NotesContainer />
       </>
     )

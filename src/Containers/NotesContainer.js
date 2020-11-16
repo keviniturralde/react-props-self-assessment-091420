@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Components/Note"
+import Note from "../Components/Note"
 
 class NotesContainer extends React.Component {
 
@@ -8,7 +8,7 @@ class NotesContainer extends React.Component {
     }
 
     renderNote = () => {        //Note should be from the Note component, however it says its not defined.
-        this.apiResponse().map((note) => <Note key={note.id} note={note} />)
+        return this.apiResponse().map((note) => <Note key={note.id} note={note} />)
     }
 
     render() {
