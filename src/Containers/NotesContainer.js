@@ -1,38 +1,25 @@
 import React from 'react';
+import Note from '../Components/Note';
 
-function NotesContainer() {
-    const apiResponse = () => {
+class NotesContainer extends React.Component {
+
+    apiResponse = () => {
         return [{ id: 1, content: "First Note" }, { id: 2, content: "Second Note" }, { id: 3, content: "Third Note" }, { id: 4, content: "Fourth Note" }]
     }
 
-    console.log(apiResponse())
-    // const notes = apiResponse().map(function (note) {return <Note test/>})
+    renderNotes = () => {
+        return this.apiResponse().map(e =>
+        <Note note={e}/>)
+    }
 
-
-
-    return (
+    render() {
+        return (
             <ul>
-                test
-                {}
+                {this.renderNotes()}
             </ul>
         )
-}    
+    }
 
-// class NotesContainer extends React.Component {
-
-//     apiResponse = () => {
-//         return [{ id: 1, content: "First Note" }, { id: 2, content: "Second Note" }, { id: 3, content: "Third Note" }, { id: 4, content: "Fourth Note" }]
-//     }
-
-//     render() {
-//         return (
-//             <ul>
-//                 {}
-//             </ul>
-//         )
-//     }
-
-// }
+}
 
 export default NotesContainer;
-
