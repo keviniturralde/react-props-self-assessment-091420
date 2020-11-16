@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <>
         <header />
+        <header text="Hello World!" />
       </>
     )
   }

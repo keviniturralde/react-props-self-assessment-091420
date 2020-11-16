@@ -8,7 +8,8 @@ class NotesContainer extends React.Component {
     render() {
         return (
             <ul>
-                {}
+                { this.apiResponse.map((response) => { })
+                }
             </ul>
         )
     }
