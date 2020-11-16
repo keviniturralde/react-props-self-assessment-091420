@@ -5,7 +5,6 @@ import NotesContainer from './Containers/NotesContainer.js';
 // import NotesContainerTest from './src/Tests/NotesContainer.test.js';
 import Note from './src/Components/Note';
 
-
 class App extends Component {
   render() {
     return (

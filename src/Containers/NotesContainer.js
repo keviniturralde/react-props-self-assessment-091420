@@ -17,7 +17,6 @@ class NotesContainer extends React.Component {
             </ul>
         )
     }
-
 }
 
 export default NotesContainer;
