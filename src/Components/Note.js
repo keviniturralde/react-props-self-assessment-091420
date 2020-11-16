@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function Note(props) {
-    return <li>{props.note.content}</li>
+    return <li>{this.props.content}</li>
 }
 
 export default Note;
