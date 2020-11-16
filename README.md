@@ -4,8 +4,6 @@
 
 - Clone this lab then read the below deliverables and make all necessary changes to the app to get it to work. 
 
-- There are no learn tests for this project
-
 ## Deliverables:
 
 ### Header
