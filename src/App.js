@@ -5,9 +5,9 @@ import Header from './Components/Header'
 class App extends Component {
   render() {
     return (
-      <>
-        <header />
-      </>
+      <div>
+        <Header text='Hello World' />
+      </div>
     )
   }
 }
