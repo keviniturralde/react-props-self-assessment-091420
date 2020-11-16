@@ -1,4 +1,6 @@
 import React from 'react';
+import Note from '../Components/Note.js';
+
 class NotesContainer extends React.Component {
 
     apiResponse = () => {
