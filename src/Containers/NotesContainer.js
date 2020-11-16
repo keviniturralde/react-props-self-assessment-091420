@@ -8,7 +8,7 @@ class NotesContainer extends React.Component {
     render() {
         return (
             <ul>
-                {}
+                <Note />
             </ul>
         )
     }
