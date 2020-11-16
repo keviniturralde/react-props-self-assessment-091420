@@ -6,10 +6,10 @@ import NotesContainer from "./Containers/NotesContainer";
 class App extends Component {
   render() {
     return (
-      <>
-        <Header title="Hello World" />
+      <div>
+        <Header text="Hello World" />
         <NotesContainer />
-      </>
+      </div>
     )
   }
 }
