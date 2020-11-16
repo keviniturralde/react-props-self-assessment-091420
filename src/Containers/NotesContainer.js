@@ -8,7 +8,9 @@ class NotesContainer extends React.Component {
     render() {
         return (
             <ul>
-                {}
+                { this.apiResponse().map((r) => {
+                    return <li key={r.id}>{r.content}</li>
+                })}
             </ul>
         )
     }
